@@ -1,0 +1,605 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Autoparts Warehouse </title>
+	<meta name="description" content="Scarica gratis il nostro Template HTML/CSS GARAGE. Se avete bisogno di un design per il vostro sito web GARAGE può fare per voi. Web Domus Italia">
+	<meta name="author" content="Web Domus Italia">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="source/bootstrap-3.3.6-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="source/font-awesome-4.5.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="style/slider.css">
+	<link rel="stylesheet" type="text/css" href="style/mystyle.css">
+</head>
+<body>
+<!-- Header -->
+<div class="allcontain">
+	<div class="header">
+			<ul class="socialicon">
+				<li><a href="https://www.facebook.com/ccautopartsuk/"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			</ul>
+			<ul class="title">
+				<li>Autoparts Warehouse </li>
+			</ul>
+			<ul class="logreg">
+				<li><a href="#signin" data-toggle="modal" data-target=".bs-modal-sm">Sign in </a> </li>
+				<li><a href="#signup" data-toggle="modal" data-target=".bs-modal-sm" <span class="register">Register</span></a></li>
+			</ul>
+			<div class="container"> 
+  
+
+<!-- Modal -->
+<div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <br>
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+            </ul>
+        </div>
+      <div class="modal-body">
+        <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active in" id="signin">
+            <form class="form-horizontal">
+            <fieldset>
+            <!-- Sign In Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Username:</label>
+              <div class="controls">
+                <input required="" id="userid" name="userid" type="text" class="form-control" placeholder="JoeSixpack" class="input-medium" required="">
+              </div>
+            </div>
+
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="passwordinput">Password:</label>
+              <div class="controls">
+                <input required="" id="passwordinput" name="passwordinput" class="form-control" type="password" placeholder="********" class="input-medium">
+              </div>
+            </div>
+
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="control-group">
+              <label class="control-label" for="rememberme"></label>
+              <div class="controls">
+                <label class="checkbox-inline" for="rememberme-0">
+                  <input type="checkbox" name="rememberme" id="rememberme-0" value="Remember me">
+                  Remember me
+                </label>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="signin"></label>
+              <div class="controls">
+                <button id="signin" name="signin" class="btn btn-success">Sign In</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        <div class="tab-pane fade" id="signup">
+            <form class="form-horizontal">
+            <fieldset>
+			
+			
+            <!-- Registration Form -->
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="Email">Email:</label>
+              <div class="controls">
+                <input id="Email" name="Email" class="form-control" type="text" placeholder="JoeSixpack@sixpacksrus.com" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="userid">Username:</label>
+              <div class="controls">
+                <input id="userid" name="userid" class="form-control" type="text" placeholder="JoeSixpack" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Password input-->
+            <div class="control-group">
+              <label class="control-label" for="password">Password:</label>
+              <div class="controls">
+                <input id="password" name="password" class="form-control" type="password" placeholder="********" class="input-large" required="">
+                <em>1-8 Characters</em>
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="control-group">
+              <label class="control-label" for="reenterpassword">Re-Enter Password:</label>
+              <div class="controls">
+                <input id="reenterpassword" class="form-control" name="reenterpassword" type="password" placeholder="********" class="input-large" required="">
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <br>
+            <div class="control-group">
+              <label class="control-label" for="humancheck">Humanity Check:</label>
+              <div class="controls">
+                <label class="radio-inline" for="humancheck-0">
+                  <input type="radio" name="humancheck" id="humancheck-0" value="robot" checked="checked">I am not a Robot</label>
+              </div>
+            </div>
+            
+            <!-- Button -->
+            <div class="control-group">
+              <label class="control-label" for="confirmsignup"></label>
+              <div class="controls">
+                <button id="confirmsignup" name="confirmsignup" class="btn btn-success">Sign Up</button>
+              </div>
+            </div>
+            </fieldset>
+            </form>
+      </div>
+    </div>
+      </div>
+      <div class="modal-footer">
+      <center>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </center>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	<!-- Navbar Up -->
+	<nav class="topnavbar navbar-default topnav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed toggle-costume" data-toggle="collapse" data-target="#upmenu" aria-expanded="false">
+					<span class="sr-only"> Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo" href="#"><img src="image/CCautoparts.jpg" alt="logo"></a>
+			</div>	 
+		</div>
+		<div class="collapse navbar-collapse" id="upmenu">
+			<ul class="nav navbar-nav" id="navbarontop">
+				<li class="active"><a href="index.html">HOME</a> </li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle"	data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS <span class="caret"></span></a>
+					<ul class="dropdown-menu dropdowncostume">
+						<li><a href="grilles.html">Grilles</a></li>
+						<li><a href="logos.html">Logos</a></li>
+						<li><a href="alloys.html">Alloys</a></li>
+						<li><a href="accessories.html">Accessories</a></li>
+					</ul>
+				</li>
+				<li> 
+					<a href="aboutus.html">ABOUT US</a> 
+				</li> 
+				<li>
+					<a href="contact.html">CONTACT</a>
+ 
+				</li>
+				<button><span class="postnewcar">POST NEW PART</span></button>
+			</ul>
+		</div>
+	</nav>
+</div>
+<!--_______________________________________ Carousel__________________________________ -->
+<div class="allcontain">
+	<div id="carousel-up" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner " role="listbox">
+			<div class="item active">
+				<img src="image/chromeclass.jpg" alt="oldcar">
+				<div class="carousel-caption">
+					<h2>Mercedes Benz</h2>
+					<p>W204 C Class Grille (C63 style) 2008-2011 <br>
+						Price: 24 Bolts </p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/allchrome.jpg" alt="porche">
+				<div class="carousel-caption">
+					<h2>Mercedes Benz</h2>
+						<p>W204 C Class Grille C180 C220 C250 C350 <br> 
+						(AMG Style Coupe) 2007-2014 <br>
+						Price: 24 Bolts </p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="image/matteclass.jpg" alt="benz">
+				<div class="carousel-caption">
+					<h2>Mercedes Benz</h2>
+					<p>Matte Black W204 C Class Grille (C63 style) 08-11<br>
+						Price: 23 Bolts </p>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default midle-nav">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed textcostume" data-toggle="collapse" data-target="#navbarmidle" aria-expanded="false">
+						<h1>SEARCH TEXT</h1>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarmidle">
+				<div class="searchtxt">
+					<h1>SEARCH TEXT</h1>
+				</div>
+				<form class="navbar-form navbar-left searchformmargin" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control searchform" placeholder="Enter Keyword">
+					</div>
+				</form>
+				<ul class="nav navbar-nav navbarborder">
+					<li class="li-category">
+						<a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Category<span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd">
+							<li><a href="#">Epic</a></li>
+							<li><a href="#">Old</a></li>
+							<li><a href="#">New</a></li>
+						</ul>
+					</li>
+					<li class="li-minyear"><a class="btn  dropdown-toggle btn-costume"  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Min Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd2">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>
+					</li>
+					<li class="li-maxyear"><a class="btn dropdown-toggle btn-costume"  id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Max Year <span class="glyphicon glyphicon-chevron-down downicon"></span></a>
+						<ul class="dropdown-menu" id="mydd3">
+							<li><a href="#">1900</a></li>
+							<li><a href="#">2000</a></li>
+							<li><a href="#">2016</a></li>
+						</ul>
+					</li>
+					<li class="li-slideprice">
+						<p> <label class="slidertxt" for="amount">Price </label>
+							<input class="priceslider" type="text" id="amount" readonly="readonly">
+						</p>
+							<div id="slider-range"></div>
+							
+					</li>
+					<li class="li-search"> <button class="searchbutton"><span class="glyphicon glyphicon-search "></span></button></li>
+				</ul>
+ 
+			</div>
+		</nav>
+	</div>
+</div>
+
+
+<!-- ____________________Featured Parts Section ______________________________--> 
+<div class="allcontain">
+	<div class="feturedsection">
+		<h1 class="text-center"><span class="bdots">&bullet;</span>F E A T U R E D<span class="carstxt">P A R T S</span>&bullet;</h1>
+	</div>
+	<div class="feturedimage">
+		<div class="row firstrow">
+			<div class="col-lg-6 costumcol colborder1">
+				<div class="row costumrow">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
+						<img src="image/Audiblack.jpg" alt="porsche">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+						<div class="featurecontant">
+							<h1>Audi RS5 grille (2007-2012)</h1>
+							<p> Black honeycomb mesh with silver rings</p>
+			 				<h2>Price (Bolts): 30</h2>
+			 				<button id="btnRM" onclick="rmtxt()">READ MORE</button>
+			 				<div id="readmore">
+			 						<h1>Audi RS5 Black Grille (honeycomb mesh) </h1>
+			 						<p>Black high gloss edition includes:</p>
+									<p>- Audi RS5 style grille</p>
+									<p>- RS5 badge (detachable) </p>
+									<p>- Number plate bracket</p>
+									<p>- RS5 boot lid badge</p>
+									<p>- REF NO: 10005</p>
+			 						</p>
+			 						<button id="btnRL">READ LESS</button>
+			 				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 costumcol colborder2">
+				<div class="row costumrow">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+						<img src="image/Audisilver.jpg" alt="porsche1">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+						<div class="featurecontant">
+							<h1>Audi RS5 grille (2007-2012)</h1>
+							<p> Silver honeycomb mesh with silver rings</p>
+			 				<h2>Price (Bolts): 30</h2>
+			 				<button id="btnRM2">READ MORE</button>
+			 				<div id="readmore2">
+			 						<h1>Audi RS5 Silver Grille (honeycomb mesh) </h1>
+			 						<p>Black high gloss edition includes:</p>
+									<p>- Audi RS5 style grille</p>
+									<p>- RS5 badge (detachable) </p>
+									<p>- Number plate bracket</p>
+									<p>- RS5 boot lid badge</p>
+									<p>- REF NO: 10006</p>
+			 						</p>
+			 						<button id="btnRL2">READ LESS</button>
+			 				</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!-- ________________________LATEST CARS SECTION _______________________-->
+<div class="latestcars">
+	<h1 class="text-center">&bullet; LATEST   PARTS &bullet;</h1>
+	<ul class="nav nav-tabs navbar-left latest-navleft">
+		<li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
+		<li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
+		<li data-filter=".POPULAR" role="presentation"><a href="#mostpopular" class="prcBtnR">MOST POPULAR </a></li>
+		<li  role="presentation"><a href="#" class="alphSort">ALPHABETICAL </a></li>
+		<li data-filter=".HPRICE" role="presentation"><a href="#" class="prcBtnH">HIGHEST PRICE </a></li>
+		<li data-filter=".LPRICE" role="presentation"><a href="#" class="prcBtnL">LOWEST  PRICE </a></li>
+		<li id="hideonmobile">
+	</ul>
+</div>
+<br>
+<br>
+<!-- ________________________Latest Cars Image Thumbnail________________-->
+	<div class="grid">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/audilogo.jpg" alt="car1">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Audi logo rings</h3>
+								<p> "Audi brand logo capable of interchanging <br>
+								with any other Audi grille on the market" </p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 3 Bolts</h4>
+	 							<a href="logos.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+				<div class="txthover">
+					<img src="image/merclogo.jpg" alt="car2">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Mercedes center emblem</h3>
+								<p>"Mercedes brand logo capable of <br>
+								interchanging with any other Mercedes grille on the market" </p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 3 Bolts</h4>
+	 							<a href="logos.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/bmwlogo.jpg" alt="car3">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">BMW Logo</h3>
+								<p>"BMW brand logo capable of <br>
+								interchanging with any other BMW grille on the market" </p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 3 Bolts</h4>
+	 							<a href="logos.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/volkswagengrille.jpg" alt="car4">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Volkswagen Golf GTI Grille</h3>
+								<p>"Golf GTI grille compatible with models <br>
+								 ranging from 2010-2018"</p>
+								 <p>PRICE:</p>
+	 							<h4 class="price"> 25 Bolts</h4>
+	 							<a href="grilles.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/fordgrille.jpg" alt="car5">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Ford Focus Fish Grille</h3>
+								<p>"Ford Focus Fish mouthed grille <br>
+								compatible  with any Ford Focus in the <br>
+								years 2012-2017</p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 20 Bolts</h4>
+	 							<a href="grilles.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/mudflaps.jpg" alt="car6">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Standard Saloon Mud Flaps</h3>
+								<p>"Standard saloon mud flaps compatible <br>
+								with any saloon vehicle on the market"</p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 6 Bolts</h4>
+	 							<a href="mudflaps.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/porschealloy.jpg" alt="car7">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Porsche Alloys</h3>
+								<p>"Porsche Alloys compatible with any" <br>
+								Porsche on the market"</p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 60 Bolts</h4>
+	 							<a href="alloys.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+				<div class="txthover">
+					<img src="image/carmatts.jpg" alt="car8">
+						<div class="txtcontent">
+							<div class="stars">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+							<div class="simpletxt">
+								<h3 class="name">Standard Car Mats</h3>
+								<p>"Standard car mats compatible with <br>
+								any vehicle in the current market"</p>
+								<p>PRICE:</p>
+	 							<h4 class="price"> 5 Bolts</h4>
+	 							<a href="accessories.html"><button>READ MORE</button><br></a>
+							</div>
+							<div class="stars2">
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+								<div class="glyphicon glyphicon-star"></div>
+							</div>
+						</div>
+				</div>	 
+			</div>	
+		</div>
+	</div>
+
+<!-- _______________________________News Letter ____________________-->
+	<div class="newslettercontent">
+		<div class="leftside">
+			<img src="image/border.png" alt="border">
+			<h1>NEWSLETTER</h1>
+			<p>Subscribe to our monthly newsletter and receive 
+			all the latest updates on new products and upcoming sales.
+			</p>
+		</div>
+		<div class="rightside">
+			<img class="newsimage" src="image/newsletter.jpg" alt="newsletter">
+			<input required ="" type="text" class="form-control" id="subemail" placeholder="EMAIL">
+			<button>SUBSCRIBE</button>
+		</div>
+	</div>
+	<!-- ______________________________________________________Bottom Menu ______________________________-->
+	<div class="bottommenu">		
+			<div class="footer">
+				<div class="copyright">
+				<p> About Autoparts Warehouse </p>
+				  &copy; Copy right 2018 | <a href="#">Privacy </a>| <a href="#">Policy</a>				  
+				</div>
+				<div class="atisda">
+				<p> GET IN TOUCH -</p>
+				<li><i class="fa fa-phone"></i> +1 234 567 890</a></li>
+				<li><span class="glyphicon glyphicon-envelope"></span> autopartswarehouse@hotmail.co.uk</a></li>
+				<li><i class="icon-chat"></i> Live Chat</a></li>
+					Designed by Michael Corrigan </a> 
+				</div>
+			</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+<script type="text/javascript" src="source/js/isotope.js"></script>
+<script type="text/javascript" src="source/js/myscript.js"></script> 
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
+<script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+</body>
+</html>
