@@ -1,0 +1,248 @@
+@font-face{
+	font-family: "OpenSans-Light";
+	src: url(../source/fonts/OpenSans-Light.ttf) format("truetype");
+}
+.newslettercontent{
+    margin-bottom: 0;
+}
+.contact{
+	background-color: #fff;
+}
+.contact-form>h1{
+	margin-top: 5%;
+ text-align: center;
+	font-family: "OpenSans-Light";
+}
+.group-coustume{
+    position: absolute;
+    top:130px;
+    left: 0;
+}
+.leftside > img{
+	position: absolute!important;
+    max-width: 696px;
+}
+.contact-form{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+    width: 26%;
+    margin-left: 13%;
+}
+.name-form{
+width: 100%;
+background: none;
+background-color: none;
+margin-bottom: 20px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px solid #696969;
+border-radius: 0px;
+box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset;
+}
+.email-form{
+width: 100%;
+background: none;
+background-color: none;
+margin-bottom: 20px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px solid #696969;
+border-radius: 0px;
+box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset;
+}
+.subject-form{
+width: 100%;
+background: none;
+background-color: none;
+margin-bottom: 20px;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px solid #696969;
+border-radius: 0px;
+box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0) inset;
+}
+.message-form{
+width: 100%;
+margin-bottom: 20px;
+ 
+}
+.btn-submit{
+	margin-left: 75%;
+}
+
+ .google-maps{
+    padding-left: 50%;
+    padding-top: 7%;
+    margin-bottom: 10%;
+    max-width: 1349px;
+ 
+ }
+ #googleMap{
+    max-width: 90%;
+ 
+ }
+ @media screen and (min-width: 980px) and (max-width: 1279px){
+.group-coustume{
+    top:90px;
+}
+}
+ @media screen and (min-width: 768px) and (max-width: 979px){
+.group-coustume{
+    top:80px;
+} 
+.group-coustume>input{
+    margin-bottom: 10px;
+} 
+ .group-coustume>textarea{
+        height: 50px;
+    }
+ }
+ @media screen and (min-width: 677px)and (max-width: 767px){
+.group-coustume{
+    top:60px;
+}
+ .group-coustume>textarea{
+        height: 40px;
+    }
+.group-coustume>input{
+    margin-bottom: 10px;
+}
+.message-form{
+    margin-bottom: 10px;
+}
+ }
+ @media screen and (max-width: 676px){
+      .google-maps{
+    padding-left: 0px;
+    height:60%;
+ } 
+  #googleMap{
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:90%;
+ 
+ } 
+ .contact-form{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+ }
+ .group-coustume{
+width: 50%;
+text-align: center;
+display: block;
+margin-left: 25%;
+ }
+ }
+ @media screen and (max-width: 500px){
+
+    .group-coustume>button{
+        text-align: center;
+        margin: 0px;
+    }
+ }
+ @media screen and (max-width: 461px){
+    .contact-form>h1{
+    margin-top: 3%;
+    font-size: 20px;
+}
+.group-coustume{
+   top: 80px;
+}
+ }
+@media screen and (max-width: 400px){
+    .group-coustume>input{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 376px){
+    .group-coustume{
+        top:60px;
+    }
+    .group-coustume>textarea{
+        height: 40px;
+    }
+}
+
+@font-face{
+	font-family: "Roboto Light";
+	src: url(../source/fonts/Roboto-Light.ttf) format("truetype");
+
+}
+.footer{
+background-color: #696969;
+color: #fff;
+font-family: "Roboto Light";
+font-size: 20px;
+padding-top: 10px;
+width: 71%;
+height: 300px;
+margin-left: 14%;
+padding-right: 20px;
+ 
+}
+.copyright{
+	float:left;
+	padding-left: 10%;
+	padding-top: 0px;
+}
+.atisda{
+	float: right;
+	padding-right: 10%;
+	padding-top: 0px;
+	text-decoration: none;
+}
+.copyright>a{
+	color: #fff;
+	border: 0px;
+}
+.copyright>a:hover{
+ text-decoration: none;
+}
+.atisda>a{
+	color: #d99735;
+	border: 0px;
+}
+.atisda>a:hover{
+	text-decoration: none;
+}
+ 
+@media screen and (max-width:600px){
+	.footer{
+		margin-top: 0px;
+	}
+	.copyright{
+		float: none;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 10%;
+}
+.atisda{
+	float: none;
+	text-align: left;
+	padding: 0;
+}
+	 
+	.footer>a:hover{
+		color: #F97906;
+	}
+	.footer{
+ 
+		height: 80px;
+ 
+}
+}
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
